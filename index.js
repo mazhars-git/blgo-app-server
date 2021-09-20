@@ -76,4 +76,4 @@ const contentsCollection = client.db("myBlog").collection("content");
 
 });
 
-app.listen(port);
+app.listen(process.env.PORT || port);
